@@ -201,8 +201,8 @@
   ("<f5>" . magit-status)
   ("C-c v t" . magit-status))
 
-(use-package magithub
-  :after magit)
+;; (use-package magithub
+;;   :after magit)
 
 ;; Templating system
 ;; https://github.com/Wilfred/mustache.el
