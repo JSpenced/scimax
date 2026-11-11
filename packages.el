@@ -237,9 +237,9 @@
 	bibtex-autokey-titlewords 2
 	bibtex-autokey-titlewords-stretch 1
 	bibtex-autokey-titleword-length 5)
-  (define-key bibtex-mode-map (kbd "H-b") 'org-ref-bibtex-hydra/body)
-  (define-key org-mode-map (kbd "C-c ]") 'org-ref-insert-link)
-  (define-key org-mode-map (kbd "s-[") 'org-ref-insert-link-hydra/body))
+  (define-key bibtex-mode-map (kbd "H-b") 'org-ref-bibtex-hydra/body))
+;; org-ref's org-mode-map bindings (C-c ] and s-[) were removed so that
+;; global bindings can be used instead.
 
 ;; Ivy interface for org-ref
 (use-package org-ref-ivy
